@@ -1,7 +1,17 @@
-//prgrama olá mundo 
+//Este es un programa en C++ que imprime "Hello, World!" en la consola.
+//data
+
+// using namespace std; - sempre acima do int main - serve p n ficar dando std::cout
+// g++ helloworld.cpp -o helloworld -- cria o executável helloworld
 #include <iostream>
-int main(){
-    std::cout <<"Hello World\n";
-    system ("pause");
+#include <cstdlib> // Necessário para a função system
+
+int main() {
+    
+    std::cout << "Hello, World!\n";
+
+    system("color 0A"); // Muda a cor do texto para verde no Windows
+    system("cls"); // Limpa a tela no Windows
+    system("pause");
     return 0;
 }
