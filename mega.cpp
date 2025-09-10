@@ -80,7 +80,7 @@ int main() {
         acerta=acerta+1;
     } 
     if (acerta==4)
-       cout << "Parabens! Voce fez quadra!\n";
+       cout << "Parabens! Voce fez cocô!\n";
     if (acerta==5) 
          cout << "Parabens! Voce fez quina!\n";
     if (acerta==6)
