@@ -16,7 +16,7 @@ int main() {
         }
         i++;
     }
-
+    cout << 'posicao' <<i<< 'tem uma vogal' << palavra[i] << endl;   
     cout << "A palavra tem " << contavogais << " vogal(is)." << endl;
 
     return 0;
